@@ -4,7 +4,6 @@ import { createRoot } from 'react-dom/client';
 import React, { useState } from 'react';
 import GothicScene from './GothicScene';
 import RoomScene from './RoomScene';
-import { Button, Navbar,Container } from 'react-bootstrap';
 import "./App.css"
 
 function App() {
@@ -21,8 +20,8 @@ function App() {
   return (
     <div id="root" style={{height: '100vh', width: '100%', overflow: 'hidden'}}>
       <div className="Navbar">
-        <button style={{marginRight: '10em'}} onClick={previousScene}>Previous</button>
-        <button style={{marginLeft: '10em'}} onClick={nextScene}>Next</button>
+        <button style={{marginRight: '10em', marginLeft: '2em'}} onClick={previousScene}>Previous</button>
+        <button style={{marginLeft: '10em', marginRight: '2em'}} onClick={nextScene}>Next</button>
       </div>
       <div className='row'>
         <hr className="hr" />
