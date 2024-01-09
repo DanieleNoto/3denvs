@@ -20,8 +20,8 @@ function App() {
   return (
     <div id="root" style={{height: '100vh', width: '100%', overflow: 'hidden'}}>
       <div className="Navbar">
-        <button style={{marginRight: '10em', marginLeft: '2em'}} onClick={previousScene}>Previous</button>
-        <button style={{marginLeft: '10em', marginRight: '2em'}} onClick={nextScene}>Next</button>
+        <button style={{marginRight: '5em', paddingLeft: '5em'}} onClick={previousScene}>Previous</button>
+        <button style={{marginLeft: '5em', marginRight: '5em'}} onClick={nextScene}>Next</button>
       </div>
       <div className='row'>
         <hr className="hr" />
