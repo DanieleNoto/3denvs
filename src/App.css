@@ -7,10 +7,33 @@
   pointer-events: none;
 }
 
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  height: 3em;
+}
+
+.Navbar button {
+  color: white;
+  background-color: transparent;
+  border: none;
+}
+
+.Navbar button:hover{
+  cursor: pointer;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.hr {
+  border: .1em solid rgba(255, 255, 255,);
+  margin: 0;
 }
 
 .App-header {
